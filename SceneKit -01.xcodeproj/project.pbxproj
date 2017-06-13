@@ -15,6 +15,7 @@
 		83E2F8751EEFE2160009134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E2F8731EEFE2160009134C /* LaunchScreen.storyboard */; };
 		83E2F8801EEFE2170009134C /* SceneKit__01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E2F87F1EEFE2170009134C /* SceneKit__01Tests.m */; };
 		83E2F88B1EEFE2170009134C /* SceneKit__01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E2F88A1EEFE2170009134C /* SceneKit__01UITests.m */; };
+		83E2F89A1EEFE24F0009134C /* yizi.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 83E2F8991EEFE24F0009134C /* yizi.DAE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		83E2F8861EEFE2170009134C /* SceneKit -01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit -01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E2F88A1EEFE2170009134C /* SceneKit__01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit__01UITests.m; sourceTree = "<group>"; };
 		83E2F88C1EEFE2170009134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E2F8991EEFE24F0009134C /* yizi.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = yizi.DAE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		83E2F8641EEFE2160009134C /* SceneKit -01 */ = {
 			isa = PBXGroup;
 			children = (
+				83E2F8981EEFE24F0009134C /* 3Dmodel */,
 				83E2F8681EEFE2160009134C /* AppDelegate.h */,
 				83E2F8691EEFE2160009134C /* AppDelegate.m */,
 				83E2F86B1EEFE2160009134C /* ViewController.h */,
@@ -138,6 +141,14 @@
 				83E2F88C1EEFE2170009134C /* Info.plist */,
 			);
 			path = "SceneKit -01UITests";
+			sourceTree = "<group>";
+		};
+		83E2F8981EEFE24F0009134C /* 3Dmodel */ = {
+			isa = PBXGroup;
+			children = (
+				83E2F8991EEFE24F0009134C /* yizi.DAE */,
+			);
+			path = 3Dmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E2F8751EEFE2160009134C /* LaunchScreen.storyboard in Resources */,
+				83E2F89A1EEFE24F0009134C /* yizi.DAE in Resources */,
 				83E2F8721EEFE2160009134C /* Assets.xcassets in Resources */,
 				83E2F8701EEFE2160009134C /* Main.storyboard in Resources */,
 			);
